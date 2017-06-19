@@ -2,6 +2,7 @@
 kp_wreckspawn.sqf
 Author: Wyqer
 Website: www.killahpotatoes.de
+Source & License: https://github.com/Wyqer/A3-Scripts
 Date: 2017-06-19
 
 Description:
