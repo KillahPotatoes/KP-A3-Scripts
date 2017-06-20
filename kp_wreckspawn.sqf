@@ -20,16 +20,20 @@ Example for init.sqf:
 
 private ["_debug","_minDist","_maxDist","_multiChance","_multiMax","_placedWrecks","_wrecksArray","_size","_center","_marker","_roadsArray","_road","_count","_position","_wreck"];
 
-//Enable Debug Markers
+// CONFIG START
+
+// Enable Debug Markers
 _debug = false;
-//minimum distance between wrecks
+// minimum distance between wrecks
 _minDist = 300;
-//maximum distance between wrecks
+// maximum distance between wrecks
 _maxDist = 600;
-//spawn chance of multiple wrecks
+// spawn chance of multiple wrecks
 _multiChance = 40;
-//maximum count of wrecks at one spot
+// maximum count of wrecks at one spot
 _multiMax = 3;
+
+// CONFIG END
 
 // DO NOT EDIT BELOW
 if !(isServer) exitWith {};

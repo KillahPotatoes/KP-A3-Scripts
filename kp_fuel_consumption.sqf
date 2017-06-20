@@ -20,9 +20,8 @@ player addEventHandler ["GetInMan", {[ _this select 2] execVM "scripts\kp_fuel_c
 
 private ["_kp_neutral_consumption","_kp_normal_consumption","_kp_max_consumption"];
 
-/*
-CONFIG
-*/
+// CONFIG START
+
 // Time in Minutes till a full tank depletes when the vehicle is standing with running engine
 _kp_neutral_consumption = 180;
 // Time in Minutes till a full tank depletes when the vehicle is driving
@@ -30,10 +29,9 @@ _kp_normal_consumption = 60;
 // Time in Minutes till a full tank depletes when the vehicle is driving at max speed
 _kp_max_consumption = 40;
 
-/*
-DO NOT EDIT BELOW
-*/
+// CONFIG END
 
+// DO NOT EDIT BELOW
 if (isNil "kp_fuel_consumption_vehicles") then {
 	kp_fuel_consumption_vehicles = [];
 };

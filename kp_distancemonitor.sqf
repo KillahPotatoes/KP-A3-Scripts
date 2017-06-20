@@ -23,8 +23,12 @@ Example for initPlayerLocal.sqf:
 
 private ["_interval","_id_start","_id_stop","_id_reset","_pos"];
 
+// CONFIG START
+
 //Interval in seconds to update the distance
 _interval = 1;
+
+// CONFIG END
 
 // DO NOT EDIT BELOW
 kp_distance_run = true;
