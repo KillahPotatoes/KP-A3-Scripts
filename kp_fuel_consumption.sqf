@@ -37,7 +37,7 @@ if (isNil "kp_fuel_consumption_vehicles") then {
 	kp_fuel_consumption_vehicles = [];
 };
 
-if (!((_this select 0) in kp_fuel_consumption_vehicles)) then {
+if !((_this select 0) in kp_fuel_consumption_vehicles) then {
 	kp_fuel_consumption_vehicles pushBack (_this select 0);
 	while {local (_this select 0)} do {
 		if (isEngineOn (_this select 0)) then {

@@ -7,6 +7,11 @@
 
 This script handles the fuel consumption of vehicles, so that refueling will be necessary more often. It also checks if the vehicle is standing with running engine, driving in normal speed or max speed. With this script you'll have the need to refuel the vehicle during an evening session with a suitable setup by default (full configurable). So no more "never ending" fuel available due to the normal ArmA 3 fuel consumption mechanic.
 
+### KP Distance Monitor Script
+**File:** `kp_distancemonitor.sqf`
+
+Adds actions to the player to start/stop/reset travelled map distance measuring. It will be shown as hint and you can configure the interval of the measuring. It works with a loop which you can leave via script command or debug console: `kp_distance_run = false;`
+
 ### KP Random Wreckspawn Script
 **File:** `kp_wreckspawn.sqf`
 
