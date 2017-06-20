@@ -66,7 +66,7 @@ if (_debug) then {
 	_marker setMarkerType "mil_dot";
 };
 
-_roadsArray = _center nearRoads (_size/2);
+_roadsArray = _center nearRoads (_size / (sqrt 2));
 
 diag_log format ["[KP WRECKS] [STARTED] Center: %1 - Size: %2 - Found Roads: %3",_center,(_size/2), count _roadsArray];
 
