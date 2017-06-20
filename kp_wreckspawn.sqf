@@ -14,7 +14,7 @@ NONE
 Method:
 execVM
 
-Example for init.sqf:
+Example for initServer.sqf:
 [] execVM "kp_wreckspawn.sqf";
 */
 
@@ -24,13 +24,13 @@ private ["_debug","_minDist","_maxDist","_multiChance","_multiMax","_placedWreck
 
 // Enable Debug Markers
 _debug = false;
-// minimum distance between wrecks
+// Minimum distance between wrecks
 _minDist = 300;
-// maximum distance between wrecks
+// Maximum distance between wrecks
 _maxDist = 600;
-// spawn chance of multiple wrecks
+// Spawn chance of multiple wrecks
 _multiChance = 40;
-// maximum count of wrecks at one spot
+// Maximum count of wrecks at one spot
 _multiMax = 3;
 
 // CONFIG END

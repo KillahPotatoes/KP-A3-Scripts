@@ -32,6 +32,7 @@ _kp_max_consumption = 40;
 // CONFIG END
 
 // DO NOT EDIT BELOW
+if (isDedicated) exitWith {};
 if (isNil "kp_fuel_consumption_vehicles") then {
 	kp_fuel_consumption_vehicles = [];
 };

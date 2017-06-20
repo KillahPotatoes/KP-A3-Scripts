@@ -25,12 +25,13 @@ private ["_interval","_id_start","_id_stop","_id_reset","_pos"];
 
 // CONFIG START
 
-//Interval in seconds to update the distance
+// Interval in seconds to update the distance
 _interval = 1;
 
 // CONFIG END
 
 // DO NOT EDIT BELOW
+if (isDedicated) exitWith {};
 kp_distance_run = true;
 kp_distance_status = 0;
 kp_distance = 0;
