@@ -1,7 +1,7 @@
 /*
 kp_distancemonitor.sqf
 Author: Wyqer
-Website: www.killahpotatoes.de
+Website: https://www.killahpotatoes.de
 Source & License: https://github.com/Wyqer/A3-Scripts
 Date: 2017-06-20
 
