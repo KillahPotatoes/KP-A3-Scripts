@@ -54,7 +54,6 @@ while {kp_distance_run} do {
 		_pos = getPos player;
 		hint format ["Travelled Distance:\n%1m",((round (kp_distance * 100)) / 100)];
 	} else {
-		hint "";
 		_pos = nil;
 	};
 	uiSleep _interval;
