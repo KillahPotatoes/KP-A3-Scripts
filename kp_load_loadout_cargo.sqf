@@ -145,4 +145,7 @@ if !(isDedicated) then {
 		};
 		uiSleep 3;
 	};
+	{
+		player removeAction _x;
+	} forEach _action_ids;
 };
