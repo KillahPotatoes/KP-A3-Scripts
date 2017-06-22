@@ -12,6 +12,11 @@ This script handles the fuel consumption of vehicles, so that refueling will be 
 
 Adds actions to the player to start/stop/reset travelled map distance measuring. It will be shown as hint and you can configure the interval of the measuring. It works with a loop which you can leave via script command or debug console: `kp_distance_run = false;`
 
+### KP Load Loadouts to Cargo Script
+**File:** `kp_load_loadout_cargo.sqf`
+
+Ability to load items from saved or predefined loadouts to a vehicle cargo. This functionality is available in the vicinity of objects which you've defined per classname in the script or via `this setVariable ["KP_loadout_cargo_object",1];` in an objects init line in the editor. To end the script on a client you've to run `KP_loadout_cargo_run = false;` on the clients machine.
+
 ### KP Random Wreckspawn Script
 **File:** `kp_wreckspawn.sqf`
 
