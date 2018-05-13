@@ -52,7 +52,7 @@ while {kp_distance_run} do {
 		};
 		kp_distance = kp_distance + (_pos distance2D (getPos player));
 		_pos = getPos player;
-		hint format ["Travelled Distance:\n%1m",((round (kp_distance * 100)) / 100)];
+		hint format ["Travelled Distance:\n%1m",(kp_distance toFixed 0)];
 	} else {
 		_pos = nil;
 	};
